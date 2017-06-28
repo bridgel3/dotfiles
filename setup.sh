@@ -8,7 +8,7 @@
 # Variables
 dir=~/dotfiles
 olddir=~/dotfiles_old
-files="bashrc vimrc vim git-prompt.sh"
+files="bashrc vimrc vim git-prompt.sh tmux.conf"
 
 # Create dotfiles_old in home directory
 echo "Creating $olddir for backup of any existing dotfiles in ~"
