@@ -22,9 +22,11 @@ echo "...done"
 
 # Move any existing dotfiles to dotfiles_old and create
 # symbolic links
+ls $dir/vim
 for file in $files; do
 	echo "Moving any existing dotfiles from ~ to $olddir"
-	mv ~/.$file ~/dotfiles_old
+	mv ~/.$file ~/$olddir/.
+    ls $dir/vim
 	echo "Creating symlink to $file in home directory."
 	ln -s $dir/$file ~/.$file
 done
