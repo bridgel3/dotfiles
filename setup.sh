@@ -20,7 +20,7 @@ echo "Changin to the $dir directory"
 cd $dir
 echo "...done"
 
-# Move any existing dotfiles to dotfiles_old and create 
+# Move any existing dotfiles to dotfiles_old and create
 # symbolic links
 for file in $files; do
 	echo "Moving any existing dotfiles from ~ to $olddir"
