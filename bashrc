@@ -119,3 +119,6 @@ fi
 #export PATH=$PATH:$(npm bin)
 export PS1="\[\033[38;5;201m\]\u\[$(tput sgr0)\]\[\033[38;5;244m\]@\[$(tput sgr0)\]\[\033[38;5;10m\]\h\[$(tput sgr0)\]\[\033[38;5;244m\]:\[$(tput sgr0)\]\[\033[38;5;15m\] [\w]\[$(tput sgr0)\]\[\033[38;5;226m\]\$(__git_ps1) \[$(tput sgr0)\]\[\033[38;5;51m\]\\$\[$(tput sgr0)\] "
 PATH=$PATH:/usr/local/nodejs/bin
+PATH=$PATH:~/node-v6.6.0-linux-x64/bin
+PATH=$PATH:~/node-v6.6.0-linux-x64/bin
+PATH=$PATH:/home/shared/bridgel3/node-v6.6.0-linux-x64/bin
