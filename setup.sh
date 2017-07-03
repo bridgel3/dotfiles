@@ -25,7 +25,7 @@ echo "...done"
 ls $dir/vim
 for file in $files; do
 	echo "Moving any existing dotfiles from ~ to $olddir"
-	mv ~/.$file ~/$olddir/.
+	mv ~/.$file $olddir/.
     ls $dir/vim
 	echo "Creating symlink to $file in home directory."
 	ln -s $dir/$file ~/.$file
