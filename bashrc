@@ -114,6 +114,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+PROMPT_DIRTRIM=3
+
 
 #export REPO_PATH=boar+ssh://boar@odin.restek.wwu.edu/home/boar/repo
 #export PATH=$PATH:$(npm bin)
