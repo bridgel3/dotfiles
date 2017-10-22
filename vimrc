@@ -29,6 +29,7 @@ set foldopen-=undo
 
 set scrolloff=8
 
+colorscheme badwolf
 syntax on
 set background=dark
 
@@ -47,6 +48,8 @@ set wildmenu
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=4
+highlight Visual cterm=reverse ctermbg=NONE
+
 
 autocmd BufWritePre * :%s/\s\+$//e
 
